@@ -10,11 +10,16 @@ Project Structure:
 
 CS204_PROJECT
 
-├── dashboard
-├── pin_kit
-├── source
-├── tools
-└── MyBranch
+
+ `dashboard` 
+ <br>
+  `MyBranch` 
+ <br>
+   `pin_kit` 
+ <br>
+    `source` 
+ <br>
+     `tools` 
 
 Predictors Implemented:
 
@@ -51,20 +56,23 @@ Build Instructions:
 
 Compile PIN Tools -
 
-make obj-intel64/MyBranch.so TARGET=intel64
-make obj-intel64/MyTage.so TARGET=intel64
+`make obj-intel64/MyBranch.so TARGET=intel64`
+<br>
+`make obj-intel64/MyTage.so TARGET=intel64`
 
 Compile Test Cases -
 
 Example:
-g++ basic1.cpp -o basic1
-g++ bubble2.cpp -o bubble2
+`g++ basic1.cpp -o basic1`
+<br>
+`g++ bubble2.cpp -o bubble2`
 
 Execution of the Predictors - 
 
 Example:
-$PIN_ROOT/pin -t obj-intel64/MyBranch.so -o test1 -- ./basic1
-$PIN_ROOT/pin -t obj-intel64/MyTage.so -o test1 -- ./basic1
+`$PIN_ROOT/pin -t obj-intel64/MyBranch.so -o test1 -- ./basic1`
+<br>
+`$PIN_ROOT/pin -t obj-intel64/MyTage.so -o test1 -- ./basic1`
 
 
 Dashboard:
