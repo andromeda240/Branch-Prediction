@@ -9,7 +9,7 @@ Overview:
 Project Structure:
 
 CS204_PROJECT
-│
+
 ├── dashboard
 ├── pin_kit
 ├── source
