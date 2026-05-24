@@ -37,13 +37,13 @@ History lengths used
 
 Workloads / Test Cases:
 
-basic1.cpp State - machine branch patterns 
-bubble2.cpp      - Bubble sort and nested loops 
-matrix3.cpp      - Matrix multiplication workload 
-bfs4.cpp         - Graph traversal using BFS 
-logs5.cpp        - Dijkstra / shortest path workload 
-test1.cpp        - Mixed branch instruction patterns 
-test2.cpp        - Loops, switch statements and indirect calls 
+- basic1.cpp State - machine branch patterns 
+- bubble2.cpp      - Bubble sort and nested loops 
+- matrix3.cpp      - Matrix multiplication workload 
+- bfs4.cpp         - Graph traversal using BFS 
+- logs5.cpp        - Dijkstra / shortest path workload 
+- test1.cpp        - Mixed branch instruction patterns 
+- test2.cpp        - Loops, switch statements and indirect calls 
 
 
 
